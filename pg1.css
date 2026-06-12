@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Mouth";
+    src: url(fonte/Mounth.ttf);
+}
+
+body{
+    background-image: url(img/ChatGPT\ Image\ 5\ de\ jun.\ de\ 2026\,\ 14_59_32.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+}
+
+.login {
+    cursor: default;
+    background-image: url(img/6dc6963d10d6b54bd930017923f05453.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: auto;
+    border-radius: 15px;
+    margin: 100px;
+    background-color: rgb(1, 92, 153);
+    text-align: center;
+    font-size: 30px;
+    font-family: "Mouth";
+    text-shadow: 2px 2px 5px black;
+    padding: 80px;
+    transition: 1s;
+}
+
+.login:hover{
+    box-shadow: 0px 30px 100px rgb(255, 255, 255);
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 4px 0 black;
+    border-radius: 20px;
+    align-content: center;
+    text-align: center;
+    border: none;
+    height: 40px;
+    width: 400px;
+}
+
+.feijoada{
+    text-shadow: -2px 0 black, 0 -2px black, 2px 0 black, 0 2px black;
+    font-family: "Mouth";
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    background: none;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    transition: 1s
+}
+
+.feijoada:hover{
+    text-shadow: none;
+    color: black;
+    backdrop-filter: blur(30px);
+    cursor: pointer;
+    box-shadow: 0px 8px 8px 0px white;
+    animation: girar 1s ease;
+}
+
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(30deg);
+    }
+
+    75%{
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
